@@ -1,0 +1,11 @@
+all: libTictacField.a
+
+realization.o: realization.cpp
+	g++ -c realization.cpp
+
+libTictacField.a: realization.o
+	ar -rc libTictacField.a realization.o
+	ranlib libTictacField.a
+	mv libTictacField.a ./lib
+clean:
+	rm -rf *.o 
