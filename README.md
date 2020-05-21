@@ -1,4 +1,5 @@
 This is a realization of tic-tac-toe for removed players using sockets (tcp/ip protocol) for communication.
+
 (Server and two players shpuld be in the same local network to run this game)
 
 To run this code:
