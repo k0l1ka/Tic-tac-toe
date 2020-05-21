@@ -4,10 +4,15 @@ This is a realization of tic-tac-toe for removed players using sockets (tcp/ip p
 To run this code:
 
 -- type make in your terminal. this will create executables: first, second and server.
+
 -- you can run this executables inside three different systems
+
 -- server does need any comand line parameters and must be executed before both first and second
+
 -- both first and second are executed each with one parameter -> ip of server (inet addr: ***.***.*.**) of system where server is ran
+
 -- the process of game is simple (there are some tips). two players use files - first and second - to send and receive info
+
 -- at the and of game all three processes are terminated by themselves.
 
 NOTE: to play the game for the second time you should wait for a moment in order socket_adress to be left free by server from the previous time
