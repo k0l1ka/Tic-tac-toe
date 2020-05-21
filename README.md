@@ -12,7 +12,7 @@ To run this code:
 
 -- both first and second are executed each with one parameter -> ip of server (inet addr: ***.***.*.**) of system where server is ran
 
--- the process of game is simple (there are some tips). two players use files - first and second - to send and receive info
+-- the process of game is simple (there are some tips). two players use executable files - first and second - to send and receive info
 
 -- at the and of game all three processes are terminated by themselves.
 
