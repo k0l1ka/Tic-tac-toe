@@ -16,7 +16,7 @@ To run this code:
 
 -- at the end of game all three processes are terminated by themselves.
 
-NOTE: to play the game for the second time you should wait for a moment in order socket_adress to be left free by server from the previous time
+(NOTE: to play the game for the second time you should wait for a moment in order socket_adress to be left free by server from the previous time)
 ____________________________________________________________________________________________________________________________
 
 Also a library is created over here. It is in lib/ and was created in the current directory using makefile_for_lib in the following way:
