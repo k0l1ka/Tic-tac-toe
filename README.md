@@ -14,7 +14,7 @@ To run this code:
 
 -- the process of game is simple (there are some tips). two players use executable files - first and second - to send and receive info
 
--- at the and of game all three processes are terminated by themselves.
+-- at the end of game all three processes are terminated by themselves.
 
 NOTE: to play the game for the second time you should wait for a moment in order socket_adress to be left free by server from the previous time
 ____________________________________________________________________________________________________________________________
