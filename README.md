@@ -2,15 +2,17 @@ This is a realization of tic-tac-toe for remote players using TCP sockets.
 
 To run this code:
 
--- type "make" in your terminal. this will create executables: "first", "second" and "server".
+-- type "make" in terminal in "clients" folder to create executables "first_player" and "second_player"
 
--- you can run "server" at a web server (port is 8080)
+-- type "make" in terminal in "server" folder to create executable "server"
 
--- "server" does need any comand line parameters and must be executed before both "first" and "second"
+-- you can run "server" at a web-server (port is 8080)
 
--- both "first" and "second" are executed with one cmnd line parameter -> public ip of web server(inet addr: ***.***.*.**)
+-- "server" does need any comand line parameters and must be executed before both "first_player" and "second_player"
 
--- the process of game is simple (there will be some tips). two players use executable files - "first" and "second" - to send and receive messages from "server" that is a mediator between them.
+-- both "first_player" and "second_player" are executed with one comand line parameter -> public ip of web-server
+
+-- the game is simple (there will be some tips). two players use executable files - "first_player" and "second_player" - to connect to the "server"; "server" is a mediator between players.
 
 -- at the end of game all three processes are terminated by themselves.
 ____________________________________________________________________________________________________________________________
