@@ -1,6 +1,6 @@
-This is a realization of tic-tac-toe for removed players using sockets (tcp/ip protocol) for communication.
+This is a realization of tic-tac-toe for remote players using TCP sockets.
 
-(Server and two players shpuld be in the same local network to run this game)
+(Server and two players should be in the same local network to run this game)
 
 To run this code:
 
