@@ -1,6 +1,6 @@
 This is a realization of tic-tac-toe for remote players using TCP sockets.
 
-To run this code:
+### To run this code:
 
 -- type "make" in terminal in "clients" folder to create executables "first_player" and "second_player"
 
